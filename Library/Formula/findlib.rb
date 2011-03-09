@@ -15,7 +15,7 @@ class Findlib <Formula
       s.gsub! "@SITELIB@", "#{HOMEBREW_PREFIX}/lib/ocaml/site-lib"
     end
     system "./configure", "-bindir", bin, "-mandir", man, "-sitelib", "#{prefix}/lib/ocaml/site-lib", "-config", "#{prefix}/etc/findlib.conf"
-    system "make"
+    system "make all opt"
     system "make install"
   end
 end
