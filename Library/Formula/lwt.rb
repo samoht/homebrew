@@ -1,9 +1,9 @@
 require 'formula'
 
 class Lwt <Formula
-  url 'http://ocsigen.org/download/lwt-2.2.0.tar.gz'
+  url 'http://ocsigen.org/download/lwt-2.2.1.tar.gz'
   homepage 'http://ocsigen.org/lwt'
-  md5 '4e0b28cbc5a2dfe60013c91a5d051969'
+  md5 '749546032f4fdd686d4b5dc7ecdf30ac'
 
   depends_on 'objective-caml'
   depends_on 'findlib'
