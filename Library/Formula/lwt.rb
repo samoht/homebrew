@@ -7,6 +7,7 @@ class Lwt <Formula
 
   depends_on 'objective-caml'
   depends_on 'findlib'
+  depends_on 'libev'
   skip_clean :all
 
   def install
